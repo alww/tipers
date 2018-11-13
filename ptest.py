@@ -1,5 +1,5 @@
 """
-To find maximum length of duplicated sub-string
+To find maximum length of not duplicated sub-string
 """
 a="abscdabscdaresfd"
 
@@ -11,4 +11,4 @@ while(i<len(a)):
         break
     else:
         i += 1
-print(a[:j-1])
+print(a[:j])
